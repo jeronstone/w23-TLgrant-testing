@@ -14,8 +14,8 @@ Install using pip on the Jetbot and follow the instructions on the GitHub
 
 ## Common Troubleshooting
 
-# Camera has multiple instances
+### Camera has multiple instances
 Camera is being used in another module. Try camera.stop(). If this doesn't work, reset Kernel. If this doesn't work, reset Jetbot.
 
-# GPIO Ports already decleared
+### GPIO Ports already decleared
 Comment out the GPIO setup lines. Or, restart Kernal/Jetbot.
